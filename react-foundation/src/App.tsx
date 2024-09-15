@@ -1,12 +1,17 @@
 
 import { 
   // Counter,
-  CounterWithHook } from './components'
+  // CounterWithHook, 
+  LoginPage
+} from './components';
+
+
+
 import { 
   // BasicTypes, 
   // ObjectLiteral,
   // BasicFunctions
-} from './typescript'
+} from './typescript';
 
 function App() {
   
@@ -14,13 +19,14 @@ function App() {
 
   return (
     <main>
-      <h1>Introduccion a TS - React</h1>
+      <h1>Introduccion a TS - React Native</h1>
 
       {/* <BasicTypes/> */}
       {/* <ObjectLiteral/> */}
       {/* <BasicFunctions/> */}
       {/* <Counter/> */}
-      <CounterWithHook/>
+      {/* <CounterWithHook/> */}
+      <LoginPage/>
     </main>
   )
 }
