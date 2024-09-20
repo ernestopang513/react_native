@@ -2,7 +2,8 @@
 import { 
   // Counter,
   // CounterWithHook, 
-  LoginPage
+  // LoginPage,
+  UserPage
 } from './components';
 
 
@@ -26,7 +27,8 @@ function App() {
       {/* <BasicFunctions/> */}
       {/* <Counter/> */}
       {/* <CounterWithHook/> */}
-      <LoginPage/>
+      {/* <LoginPage/> */}
+      <UserPage/>
     </main>
   )
 }
